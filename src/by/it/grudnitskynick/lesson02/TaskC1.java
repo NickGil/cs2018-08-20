@@ -14,13 +14,9 @@ Sum = 26
 class TaskC1 {
     public static void main(String[] args) {
         Scanner scan1 = new Scanner(System.in);
-        try {
-            int number1 = scan1.nextInt();
-            int number2 = scan1.nextInt();
-            String rez = String.valueOf(number1 + number2);
-            System.out.println("Sum = " + rez);
-        } catch (Exception e) {
-            System.out.println("Error!!!");
-        }
+        int number1 = scan1.nextInt();
+        int number2 = scan1.nextInt();
+        String rez = String.valueOf(number1 + number2);
+        System.out.println("Sum = " + rez);
     }
 }
