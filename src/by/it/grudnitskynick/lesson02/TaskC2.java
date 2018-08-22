@@ -18,9 +18,8 @@ OCT:42+32=74
 class TaskC2 {
     public static void main(String[] args) {
         Scanner scan1 = new Scanner(System.in);
-        Scanner scan2 = new Scanner(System.in);
         int number1 = scan1.nextInt();
-        int number2 = scan2.nextInt();
+        int number2 = scan1.nextInt();
         int rez1 = number1 + number2;
 
         String binary1 = Integer.toBinaryString(number1);
