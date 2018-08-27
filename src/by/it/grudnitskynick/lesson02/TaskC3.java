@@ -38,11 +38,12 @@ class TaskC3 {
         double rez = getWeight(i);
         System.out.println(rez);
     }
-        public static double getWeight (int weight){
-            double rez;
-            rez = weight * 3.86 / 9.81;
-            rez = Math.round(rez * 100.0) / 100.0;
-            return rez;
-        }
+
+    public static double getWeight(int weight) {
+        double rez;
+        rez = weight * 3.86 / 9.81;
+        rez = Math.round(rez * 100.0) / 100.0;
+        return rez;
+    }
 }
 

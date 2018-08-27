@@ -32,25 +32,25 @@ Lesson 03. Task B2. Нужно написать программу, котора
 
 */
 class TaskB2 {
-    private static double dis (int a, int b, int c){
+    private static double dis(int a, int b, int c) {
         double dis;
-        dis = b*b-4*a*c;
+        dis = b * b - 4 * a * c;
         return dis;
- }
+    }
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int b = scan.nextInt();
         int c = scan.nextInt();
-        double dis = dis(a,b,c);
-        double x1 = (-b + Math.sqrt(dis))/(2*a);
-        double x2 = (-b - Math.sqrt(dis))/(2*a);
-        double x3 = -b/(2*a);
-        if (dis<0){
+        double dis = dis(a, b, c);
+        double x1 = (-b + Math.sqrt(dis)) / (2 * a);
+        double x2 = (-b - Math.sqrt(dis)) / (2 * a);
+        double x3 = -b / (2 * a);
+        if (dis < 0) {
             System.out.println("Отрицательный дискриминант");
         } else {
-            if (dis == 0){
+            if (dis == 0) {
                 System.out.println(x3);
             } else {
                 System.out.println(x1 + " " + x2);

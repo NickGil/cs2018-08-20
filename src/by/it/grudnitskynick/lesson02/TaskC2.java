@@ -36,7 +36,7 @@ class TaskC2 {
         System.out.print("DEC:" + number1 + "+" + number2 + "=" + rez1 + "\n" +
                 "BIN:" + binary1 + "+" + binary2 + "=" + rez2 + "\n" +
                 "HEX:" + hex1 + "+" + hex2 + "=" + rez3 + "\n" +
-                "OCT:" + oct1 + "+" + oct2 + "=" + rez4 +"\n");
+                "OCT:" + oct1 + "+" + oct2 + "=" + rez4 + "\n");
     }
 
 }
