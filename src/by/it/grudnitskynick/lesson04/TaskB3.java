@@ -25,7 +25,18 @@ package by.it.grudnitskynick.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int rez = 1;
+        int i = 2;
+        while (rez <= number) {
+            System.out.print(rez + ",");
+            rez = rez + i;
+            i++;
+        }
+    }
 }

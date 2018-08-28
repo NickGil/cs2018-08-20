@@ -1,5 +1,7 @@
 package by.it.grudnitskynick.lesson04;
 
+import java.util.Scanner;
+
 /*
 Напишите программу которая спрашивает у пользователя:
 Какую вы хотите зарплату в $$$?
@@ -37,6 +39,118 @@ package by.it.grudnitskynick.lesson04;
 
 */
 public class TaskC1 {
-
-
+    public static void main(String[] args) {
+        System.out.println("Какую вы хотите зарплату в $$$?");
+        Scanner sc = new Scanner(System.in);
+        double payment = sc.nextInt();
+        double payment1 = payment * 1.5;
+        if (payment > 3000 || payment < 300) {
+            System.out.println("Мы вам перезвоним!");
+        } else {
+            for (int month = 0; month < 15; month++) {
+                if (month == 0 || month == 13 || month == 14) {
+                    System.out.println("За месяц " + month + " начислено $0.0");
+                } else {
+                    switch (month) {
+                        case 1:
+                            if (payment1 == 666) {
+                                System.out.println("За январь начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За январь начислено $" + payment1);
+                                break;
+                            }
+                        case 2:
+                            if (payment1 == 666) {
+                                System.out.println("За февраль начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За февраль начислено $" + payment1);
+                                break;
+                            }
+                        case 3:
+                            if (payment1 == 666) {
+                                System.out.println("За март начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За март начислено $" + payment1);
+                                break;
+                            }
+                        case 4:
+                            if (payment1 == 666) {
+                                System.out.println("За апрель начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За апрель начислено $" + payment1);
+                                break;
+                            }
+                        case 5:
+                            if (payment1 == 666) {
+                                System.out.println("За май начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За май начислено $" + payment1);
+                                break;
+                            }
+                        case 6:
+                            if (payment == 666) {
+                                System.out.println("За июнь начислено $" + payment);
+                                return;
+                            } else {
+                                System.out.println("За июнь начислено $" + payment);
+                                break;
+                            }
+                        case 7:
+                            if (payment1 == 666) {
+                                System.out.println("За июль начислено $" + payment);
+                                return;
+                            } else {
+                                System.out.println("За июль начислено $" + payment);
+                                break;
+                            }
+                        case 8:
+                            if (payment1 == 666) {
+                                System.out.println("За август начислено $" + payment);
+                                return;
+                            } else {
+                                System.out.println("За август начислено $" + payment);
+                                break;
+                            }
+                        case 9:
+                            if (payment1 == 666) {
+                                System.out.println("За сентябрь начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За сентябрь начислено $" + payment1);
+                                break;
+                            }
+                        case 10:
+                            if (payment1 == 666) {
+                                System.out.println("За октябрь начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За октябрь начислено $" + payment1);
+                                break;
+                            }
+                        case 11:
+                            if (payment1 == 666) {
+                                System.out.println("За ноябрь начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За ноябрь начислено $" + payment1);
+                                break;
+                            }
+                        case 12:
+                            if (payment1 == 666) {
+                                System.out.println("За декабрь начислено $" + payment1);
+                                return;
+                            } else {
+                                System.out.println("За декабрь начислено $" + payment1);
+                                break;
+                            }
+                    }
+                }
+            }
+        }
+    }
 }
