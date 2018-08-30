@@ -10,6 +10,20 @@ package by.it.grudnitskynick.lesson05;
 */
 
 
-public class TaskB1 {
+import java.util.ArrayList;
 
+public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> array = new ArrayList<>();
+        array.add("string1");
+        array.add("string2");
+        array.add("string3");
+        array.add("string4");
+        array.add("string5");
+        int a = array.size();
+        System.out.println(a);
+        for (String anArray : array) {
+            System.out.println(anArray);
+        }
+    }
 }

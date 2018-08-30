@@ -24,6 +24,18 @@ package by.it.grudnitskynick.lesson05;
 */
 
 
+import java.util.Scanner;
+
 public class TaskA1 {
+    public static void main(String[] args) {
+        int[] array = new int[10];
+        Scanner scan = new Scanner(System.in);
+        for (int i = 9; i >= 0; i--) {
+            array[i]= scan.nextInt();
+        }
+        for (int x :
+                array)
+            System.out.println(x);
+    }
 
 }
